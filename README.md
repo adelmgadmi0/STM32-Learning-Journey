@@ -10,7 +10,7 @@ A collection of my firmware projects for STM32, covering both high-level abstrac
 *Direct register access (No HAL) to understand the ARM Cortex-M architecture.*
 * **[LED ON](./Bare_Metal/02_LED_ON)**: Basic GPIO initialization using address-based register access.
 * **[LED Toggle (Bit-fields)](./Bare_Metal/01_LED_Toggle_Bitfields)**: Toggling LEDs using C-structures and bit-field mapping for cleaner code.
-* **[Read Pin](./Bare_Metal/03_Read_Pin)**: Reading digital input by polling the Input Data Register (IDR).
+* **[Read Pin](./Bare_Metal/03_READ_PIN)**: Reading digital input by polling the Input Data Register (IDR).
 
 ### 🔵 HAL / CubeMX Projects
 *Projects utilizing the STM32 Hardware Abstraction Layer for rapid development.*
