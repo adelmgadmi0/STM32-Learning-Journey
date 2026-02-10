@@ -15,11 +15,11 @@ A collection of my firmware projects for STM32, covering both high-level abstrac
 
 ### 🔵 [HAL / Manual Integration](./HAL_Projects)
 *Hand-written HAL implementation focusing on peripheral initialization and ISR management.*
-* **[HSE System Clock](./HAL_Projects/01_HSE_SYSCLK)**: Manual configuration of the HSE crystal and Bus clocks.
-* **[Timer Interrupts](./HAL_Projects/03_Timer_Time_100ms_IT)**: Implementing `it.c` handlers for precise 100ms timing.
-* **[Input Capture & UART](./HAL_Projects/04_Timer_Input_Capture_UART)**: Frequency measurement with custom UART transmission logic.
-
-
+* **[HSE System Clock](./HAL_Projects/01_HSE_SYSCLK)**: Manually configured the RCC to bypass the internal oscillator and use the External High-Speed crystal for a stable clock source.
+* **[PLL System Clock](./HAL_Projects/02_PLL_SYSCLK)**: Implemented Phase-Locked Loop (PLL) configuration to overclock the system to its maximum frequency while managing bus prescalers.
+* **[BASIC TIMER with 100ms Time Base with IT](./HAL_Projects/03_Timer_Time_100ms_IT)**: Configured a basic timer with custom ISR handling in it.c to trigger precise 100ms periodic events.
+* **[Recieving and Transmitting data with UART](./HAL_Projects/04_UART_RX_TX_IT)**: Developed non-blocking serial communication using Interrupts (RXNE/TXE), handling data flow without stalling the CPU.
+* **[Input Capture & UART](./HAL_Projects/05_Timer_Input_Capture_UART)**: Measured LSE Clock signal frequency via Timer Input Capture mode and reported results through UART peripheral.
 ---
 
 
