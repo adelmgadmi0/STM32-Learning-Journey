@@ -3,19 +3,7 @@
 A collection of my firmware projects for STM32, covering both high-level abstraction (HAL) and low-level hardware control (Bare Metal).
 
 > **Note:** For HAL projects, I wrote the `main.c`, `msp.c`, `it.c`, and header files manually to deeply understand the library structure and interrupt handling, rather than relying on auto-generated code.
----
-.
-├── Bare_Metal/
-│   ├── 01_LED_Toggle_Bitfields/                
-│   ├── 02_LED_ON/  
-│   └── 03_Read_Pin/              
-├── HAL_Projects/
-│   ├── 01_HSE_SYSCLK/           
-│   ├── 02_PLL_SYSCLK/            
-│   ├── 03_Timer_Time_100ms_IT/   
-│   ├── 04_UART_RX_TX_IT/         
-│   └── 05_Timer_Input_Capture_UART/   
-└── README.md                    
+---        
 
 ## 🛠️ Project Categories
 
