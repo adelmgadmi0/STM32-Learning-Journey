@@ -20,6 +20,7 @@ A collection of my firmware projects for STM32, covering both high-level abstrac
 * **[BASIC TIMER with 100ms Time Base with IT](./HAL_Projects/03_Timer_Time_100ms_IT)**: Configured a basic timer with custom ISR handling in it.c to trigger precise 100ms periodic events.
 * **[Recieving and Transmitting data with UART](./HAL_Projects/04_UART_RX_TX_IT)**: Developed non-blocking serial communication using Interrupts (RXNE/TXE), handling data flow without stalling the CPU.
 * **[Input Capture & UART](./HAL_Projects/05_Timer_Input_Capture_UART)**: Measured LSE Clock signal frequency via Timer Input Capture mode and reported results through UART peripheral.
+* **[PWM Generation Using Timer](./HAL_Projects/06_Timer_OC_PWM1)**: Generated PWM SIgnal and controlled the built in LED Brighness using it.
 ---
 
 
